@@ -1,0 +1,50 @@
+{
+    "name": "raoptimus/yii2-composite-validator",
+    "description": "Nested validators base class for Yii2 Framework",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "yii 2",
+        "yii2-extension",
+        "yii2-composite-validator",
+        "php",
+        "validator",
+        "composite"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Evgeniy Urvantsev",
+            "email": "resmus@gmail.com",
+            "homepage": "https://github.com/raoptimus"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/raoptimus/yii2-composite-validator/issues",
+        "source": "https://github.com/raoptimus/yii2-composite-validator"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "raoptimus\\validators\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "raoptimus\\validators\\tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
