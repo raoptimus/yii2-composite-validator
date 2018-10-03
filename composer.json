@@ -4,7 +4,12 @@
     "type": "yii2-extension",
     "keywords": [
         "yii2",
-        "yii 2"
+        "yii 2",
+        "yii2-extension",
+        "yii2-composite-validator",
+        "php",
+        "validator",
+        "composite"
     ],
     "license": "BSD-3-Clause",
     "authors": [
@@ -18,6 +23,7 @@
         "issues": "https://github.com/raoptimus/yii2-composite-validator/issues",
         "source": "https://github.com/raoptimus/yii2-composite-validator"
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0",
         "yiisoft/yii2": "~2.0"
@@ -40,5 +46,10 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
